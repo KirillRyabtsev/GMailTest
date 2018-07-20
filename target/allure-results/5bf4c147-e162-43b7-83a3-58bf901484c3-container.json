@@ -1,0 +1,1 @@
+{"uuid":"5bf4c147-e162-43b7-83a3-58bf901484c3","name":"com.kirill.test.SendMessageTest.deleteMessage","description":"","start":1532091238273,"stop":1532091242834,"children":["e6fb95e6-e23d-4e22-a907-abd2c11de3cb"],"afters":[{"name":"deleteMessage","status":"passed","stage":"finished","description":"","start":1532091238273,"stop":1532091242834}]}

@@ -1,0 +1,9 @@
+com\kirill\test\RemoveMessageTest.class
+com\kirill\web\page\MailPage.class
+com\kirill\web\element\MailElement.class
+com\kirill\element\Element.class
+com\kirill\test\SendMessageTest.class
+com\kirill\driver\WebDriverSingleton.class
+com\kirill\web\page\LoginPage.class
+com\kirill\test\LoginTest.class
+com\kirill\web\element\LoginElement.class
