@@ -1,0 +1,77 @@
+{
+  "uid" : "8c8cbd95cf495c0f",
+  "name" : "sendMessageTest",
+  "fullName" : "com.kirill.test.SendMessageTest.sendMessageTest",
+  "historyId" : "2824e019bbfa71d71a83144c2b62f0e9",
+  "time" : {
+    "start" : 1532091228447,
+    "stop" : 1532091238258,
+    "duration" : 9811
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : true
+  },
+  "description" : "Отправка сообщение самому себе",
+  "descriptionHtml" : "<p>Отправка сообщение самому себе</p>",
+  "beforeStages" : [ ],
+  "afterStages" : [ {
+    "name" : "deleteMessage",
+    "time" : {
+      "start" : 1532091238273,
+      "stop" : 1532091242834,
+      "duration" : 4561
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.kirill.test.SendMessageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.kirill.test.SendMessageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "sendMessageTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.kirill.test.SendMessageTest"
+  }, {
+    "name" : "host",
+    "value" : "Home-pc"
+  }, {
+    "name" : "thread",
+    "value" : "5652@Home-pc.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Отправить сообщение"
+  }, {
+    "name" : "story",
+    "value" : "Сценарий 1 – Отправка сообщения"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "ivan.petrov17325@gmail.com"
+  }, {
+    "name" : "arg1",
+    "value" : "test message"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : { }
+}

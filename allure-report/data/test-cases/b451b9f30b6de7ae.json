@@ -1,0 +1,85 @@
+{
+  "uid" : "b451b9f30b6de7ae",
+  "name" : "removeMessageTest",
+  "fullName" : "com.kirill.test.RemoveMessageTest.removeMessageTest",
+  "historyId" : "5c0988c60a2bad0eab985cb4c5c57634",
+  "time" : {
+    "start" : 1532091215320,
+    "stop" : 1532091223762,
+    "duration" : 8442
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : true
+  },
+  "description" : "Удаление сообщения из входящих сообщений",
+  "descriptionHtml" : "<p>Удаление сообщения из входящих сообщений</p>",
+  "beforeStages" : [ {
+    "name" : "createMessage",
+    "time" : {
+      "start" : 1532091199975,
+      "stop" : 1532091215302,
+      "duration" : 15327
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1532091223777,
+      "stop" : 1532091228432,
+      "duration" : 4655
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.kirill.test.RemoveMessageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.kirill.test.RemoveMessageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "removeMessageTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.kirill.test.RemoveMessageTest"
+  }, {
+    "name" : "host",
+    "value" : "Home-pc"
+  }, {
+    "name" : "thread",
+    "value" : "5652@Home-pc.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Удалить сообщение"
+  }, {
+    "name" : "story",
+    "value" : "Сценарий 1 – Удаление сообщения"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : { }
+}

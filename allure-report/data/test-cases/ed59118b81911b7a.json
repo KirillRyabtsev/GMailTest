@@ -1,0 +1,302 @@
+{
+  "uid" : "ed59118b81911b7a",
+  "name" : "loginTest",
+  "fullName" : "com.kirill.test.LoginTest.loginTest",
+  "historyId" : "3aa57d3a5865163b41bc52375838836e",
+  "time" : {
+    "start" : 1532091187693,
+    "stop" : 1532091194836,
+    "duration" : 7143
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : true
+  },
+  "description" : "Вход в почту с помощью логина и пароля",
+  "descriptionHtml" : "<p>Вход в почту с помощью логина и пароля</p>",
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "statusDetails" : {
+      "flaky" : true
+    },
+    "steps" : [ {
+      "name" : "Вводим логин {0}",
+      "time" : {
+        "start" : 1532091189679,
+        "stop" : 1532091190077,
+        "duration" : 398
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "login",
+        "value" : "ivan.petrov17325@gmail.com"
+      } ]
+    }, {
+      "name" : "Нажимаем 'Далее' ",
+      "time" : {
+        "start" : 1532091190077,
+        "stop" : 1532091190196,
+        "duration" : 119
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Вводим пароль {0}",
+      "time" : {
+        "start" : 1532091190197,
+        "stop" : 1532091190777,
+        "duration" : 580
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "password",
+        "value" : "qoakzm717"
+      } ]
+    }, {
+      "name" : "Нажимаем 'Далее' ",
+      "time" : {
+        "start" : 1532091191277,
+        "stop" : 1532091191382,
+        "duration" : 105
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Нажимаем кнопку профиля",
+      "time" : {
+        "start" : 1532091193728,
+        "stop" : 1532091194567,
+        "duration" : 839
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "stepsCount" : 5
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1532091194946,
+      "stop" : 1532091199963,
+      "duration" : 5017
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Нажимаем кнопку профиля",
+      "time" : {
+        "start" : 1532091194946,
+        "stop" : 1532091195031,
+        "duration" : 85
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Выходим из почты",
+      "time" : {
+        "start" : 1532091195031,
+        "stop" : 1532091197044,
+        "duration" : 2013
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 2,
+      "steps" : [ {
+        "name" : "Нажимаем кнопку профиля",
+        "time" : {
+          "start" : 1532091195532,
+          "stop" : 1532091195831,
+          "duration" : 299
+        },
+        "status" : "passed",
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ]
+      }, {
+        "name" : "Нажимаем кнопку 'Выйти'",
+        "time" : {
+          "start" : 1532091195831,
+          "stop" : 1532091197044,
+          "duration" : 1213
+        },
+        "status" : "passed",
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Удаляем ранее залогинившегося пользователя из запомненных аккаунтов",
+      "time" : {
+        "start" : 1532091198044,
+        "stop" : 1532091199942,
+        "duration" : 1898
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 4,
+      "steps" : [ {
+        "name" : "Нажимаем 'Вернуться' ",
+        "time" : {
+          "start" : 1532091198545,
+          "stop" : 1532091198648,
+          "duration" : 103
+        },
+        "status" : "passed",
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ]
+      }, {
+        "name" : "Нажимаем 'Удалить аккаунт' ",
+        "time" : {
+          "start" : 1532091199149,
+          "stop" : 1532091199226,
+          "duration" : 77
+        },
+        "status" : "passed",
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ]
+      }, {
+        "name" : "Нажимаем 'Удалить аккаунт' напротив нужного аккаунта",
+        "time" : {
+          "start" : 1532091199227,
+          "stop" : 1532091199320,
+          "duration" : 93
+        },
+        "status" : "passed",
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ]
+      }, {
+        "name" : "Нажимаем 'Удалить' в подтверждающем окне",
+        "time" : {
+          "start" : 1532091199320,
+          "stop" : 1532091199441,
+          "duration" : 121
+        },
+        "status" : "passed",
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "stepsCount" : 9
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.kirill.test.LoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.kirill.test.LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.kirill.test.LoginTest"
+  }, {
+    "name" : "host",
+    "value" : "Home-pc"
+  }, {
+    "name" : "thread",
+    "value" : "5652@Home-pc.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Войти в почту"
+  }, {
+    "name" : "story",
+    "value" : "Сценарий 1 – Ввод логина и пароля"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "ivan.petrov17325@gmail.com"
+  }, {
+    "name" : "arg1",
+    "value" : "qoakzm717"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ {
+      "uid" : "d5d2c3b6c0ff39a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1532091187693,
+        "stop" : 1532091194622,
+        "duration" : 6929
+      }
+    } ],
+    "categories" : [ ]
+  }
+}

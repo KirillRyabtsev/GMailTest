@@ -1,0 +1,31 @@
+[ {
+  "uid" : "ed59118b81911b7a",
+  "name" : "loginTest",
+  "time" : {
+    "start" : 1532091187693,
+    "stop" : 1532091194836,
+    "duration" : 7143
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "9a708343c50f1558",
+  "name" : "sendMessageTest",
+  "time" : {
+    "start" : 1532091228449,
+    "stop" : 1532091238266,
+    "duration" : 9817
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "61bb1016c14416fb",
+  "name" : "removeMessageTest",
+  "time" : {
+    "start" : 1532091215321,
+    "stop" : 1532091223770,
+    "duration" : 8449
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
